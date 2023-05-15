@@ -11,7 +11,7 @@ export default {
 	icon: 'box',
 	component: LayoutComponent,
 	slots: {
-		options: () => LayoutOptions,
+		options: LayoutOptions,
 		sidebar: () => null,
 		actions: () => null,
 	},
